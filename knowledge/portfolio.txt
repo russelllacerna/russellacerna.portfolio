@@ -1,0 +1,172 @@
+RUSSEL LACERNA — PORTFOLIO INFORMATION
+
+PROFILE
+
+Name: Russel Lacerna
+Preferred name: Russ
+Age: 21
+birthday:June 08, 2005
+
+Russ is a 4th-year Bachelor of Science in Information Technology (BSIT) student at Philippine Christian University (PCU).
+
+Russ is interested in information technology, IT support, networking, computer hardware, software development, and web development.
+
+Russ enjoys learning by building projects and gaining practical experience with computers and technology.
+
+
+EDUCATION
+
+School: Philippine Christian University (PCU)
+
+Program: Bachelor of Science in Information Technology (BSIT)
+
+Year Level: 4th Year
+
+Russ is currently completing his Bachelor of Science in Information Technology degree.
+
+His studies involve programming, web development, databases, information technology systems, and other IT-related subjects.
+
+
+SKILLS
+
+Programming Languages:
+- Java
+- Python
+- C#
+
+Web Development:
+- HTML
+- CSS
+- JavaScript
+
+Database:
+- SQL Server
+
+Tools and Software:
+- Visual Studio
+- Visual Studio Code
+- Git
+- GitHub
+- Microsoft Excel
+- Microsoft Word
+- Google Docs
+
+IT Skills:
+- Basic computer troubleshooting
+- Hardware handling
+- Computer assembly and disassembly
+- Operating system installation and formatting
+- Basic networking
+- Ethernet cable preparation
+- IT equipment deployment and retrieval
+
+Russ is particularly interested in practical IT support, networking, and hardware-related work.
+
+
+IT SUPPORT INTERNSHIP / OJT EXPERIENCE
+
+Role: IT Support Intern
+
+Russ gained practical experience assisting with IT support tasks and handling computer equipment.
+
+Activities and experience include:
+- Computer troubleshooting
+- Computer hardware handling
+- System unit cleaning and maintenance
+- CPU disassembly and assembly
+- Motherboard and CMOS handling
+- Computer casing replacement
+- Operating system installation and formatting
+- Booting computers from USB
+- IT equipment deployment and retrieval
+- Inventory and equipment logging
+- Ethernet cable preparation
+- Basic networking tasks
+- Setting up and handling IT equipment for employees
+
+The internship helped Russ gain practical experience with hardware, troubleshooting, networking, and IT support.
+
+
+PROJECTS
+
+1. Attendance Tracking System
+
+An academic student and teacher attendance system.
+
+Features include:
+- Student registration
+- Subject assignment
+- Daily attendance
+- Attendance summaries
+- Database-backed records
+
+Technologies:
+- C#
+- Windows Forms
+- Database
+
+This project demonstrates Russ's experience developing a desktop application with C# and working with database-backed records.
+
+
+2. Birthday Month Calendar
+
+A web project that displays a calendar organized by birthday month.
+
+Technologies:
+- HTML
+- CSS
+- JavaScript
+
+
+3. Student Enrollment Form
+
+A web-based student enrollment form created as an academic project.
+
+Technologies:
+- HTML
+- CSS
+- JavaScript
+
+
+4. Multiplication Table
+
+A simple web project that generates and displays multiplication tables.
+
+Technologies:
+- HTML
+- CSS
+- JavaScript
+
+
+INTERESTS
+
+Technology:
+- IT support
+- Computer hardware
+- Networking
+- Web development
+- Software development
+
+Games:
+- Roblox
+- Various games
+- mobile legend
+
+Sports and Fitness:
+- home workout
+- Jogging
+- Badminton
+- Volleyball
+
+Entertainment:
+- Movies
+- Anime
+- youtube/plant/animal content
+
+Russ enjoys learning new technical skills and gaining hands-on experience with computers and technology.
+
+
+CONTACT
+
+Email:
+russelllacernaa@gmail.com

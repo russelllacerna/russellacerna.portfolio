@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Russel Lacerna — BSIT student portfolio"
+    />
+    <title>Russ — IT Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-one"></div>
+    <div class="bg-orb orb-two"></div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#home" aria-label="Russ home">
+          <span>Russ</span><small>.portfolio</small>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">
+            ☾
+          </button>
+          <button
+            id="menuToggle"
+            class="icon-btn menu-btn"
+            aria-label="Open menu"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+
+      <nav id="mobileNav" class="mobile-nav" aria-label="Mobile navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">4TH YEAR BSIT STUDENT • PCU</p>
+          <h1>
+            Hi, I'm <span>Russ.</span><br />I build, learn & explore tech.
+          </h1>
+          <p class="hero-text">
+            I'm a Bachelor of Science in Information Technology student
+            interested in IT support, networking, and web development. I learn
+            best by building things and getting hands-on with technology.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects"
+              >View my work <span>↗</span></a
+            >
+            <button class="btn secondary" id="heroChatBtn">
+              Ask my portfolio AI <span>✦</span>
+            </button>
+          </div>
+
+          <div class="quick-facts">
+            <div><strong>BSIT</strong><span>PCU</span></div>
+            <div><strong>IT Support</strong><span>OJT experience</span></div>
+            <div><strong>4+</strong><span>projects</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo-frame">
+            <div class="photo-glow"></div>
+            <img src="assets/profile.png" alt="Russel Lacerna" />
+          </div>
+          <div class="floating-card card-projects">
+            <span class="mini-icon">⌘</span>
+            <div>
+              <strong>Projects</strong><small>Learning by building</small>
+            </div>
+          </div>
+          <div class="floating-card card-status">
+            <span class="status-dot"></span>
+            <div><strong>Currently</strong><small>Exploring IT</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">01 — ABOUT</p>
+          <h2>A little about me.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-main glass-card">
+            <p class="large-copy">
+              I'm Russ, a 4th-year BSIT student at Philippine Christian
+              University. I'm still exploring where I fit best in tech, but I'm
+              especially interested in practical IT work, networking, and
+              building for the web.
+            </p>
+            <p>
+              My projects have taken me from simple HTML exercises to
+              interactive websites and a database-backed attendance system. My
+              IT Support OJT also gave me hands-on experience with computer
+              hardware, deployment, troubleshooting, and basic networking tasks.
+            </p>
+          </div>
+
+          <div class="about-side">
+            <div class="stat-card">
+              <span>Based around</span>
+              <strong>IT & Web</strong>
+            </div>
+            <div class="stat-card">
+              <span>Learning style</span>
+              <strong>Hands-on</strong>
+            </div>
+            <div class="stat-card">
+              <span>Off-screen</span>
+              <strong>Games & sports</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">02 — SKILLS</p>
+          <h2>Things I'm learning & using.</h2>
+          <p>
+            These are presented as areas I've worked with, not exaggerated
+            proficiency ratings.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-number">01</span>
+            <h3>Programming</h3>
+            <div class="tags">
+              <span>Java</span><span>Python</span><span>C#</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">02</span>
+            <h3>Web Development</h3>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">03</span>
+            <h3>IT Support</h3>
+            <div class="tags">
+              <span>Troubleshooting</span><span>Hardware</span
+              ><span>OS setup</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">04</span>
+            <h3>Tools</h3>
+            <div class="tags">
+              <span>VS Code</span><span>GitHub</span><span>Excel</span
+              ><span>Word</span>
+            </div>
+          </article>
+          <article class="skill-card wide">
+            <span class="skill-number">05</span>
+            <h3>Networking</h3>
+            <p>
+              Basic networking concepts and hands-on practice, including
+              preparing Cat6 Ethernet cables during OJT.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">03 — EXPERIENCE</p>
+          <h2>Learning beyond the classroom.</h2>
+        </div>
+
+        <article class="experience-card glass-card">
+          <div class="experience-meta">
+            <span class="experience-dot"></span>
+            <div>
+              <p class="eyebrow">OJT / INTERNSHIP</p>
+              <h3>IT Support</h3>
+              <p class="muted">Connext Global Solutions</p>
+            </div>
+          </div>
+          <div class="experience-content">
+            <p>
+              My OJT gave me practical exposure to day-to-day IT support work,
+              especially around hardware handling, computer setup,
+              troubleshooting, and device deployment.
+            </p>
+            <ul>
+              <li>
+                Handled and assisted with deployment and retrieval of IT
+                equipment.
+              </li>
+              <li>
+                Practiced system-unit disassembly, cleaning, and hardware
+                handling.
+              </li>
+              <li>
+                Worked with computer formatting and operating-system
+                installation.
+              </li>
+              <li>Practiced making Ethernet cables using Cat6.</li>
+              <li>Assisted with equipment logging and support tasks.</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <section id="projects" class="section container">
+        <div class="section-heading row-heading">
+          <div>
+            <p class="eyebrow">04 — PROJECTS</p>
+            <h2>Things I've built.</h2>
+          </div>
+          <p>
+            Small projects are still part of the journey. Each one represents
+            something I learned.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article
+            class="project-card featured-project"
+            data-project="attendance"
+          >
+            <div class="project-image">
+              <img
+                src="assets/StudentAttendanceTracker.png"
+                alt="Attendance tracking system project screenshot"
+              />
+            </div>
+
+            <div class="project-body">
+              <div class="project-top">
+                <span>01</span><span>Academic Project</span>
+              </div>
+              <h3>Attendance Tracking System</h3>
+              <p>
+                A student and teacher attendance system with registration,
+                subject assignment, daily attendance, summaries, and
+                database-backed records.
+              </p>
+              <div class="tags">
+                <span>C#</span><span>WinForms</span><span>Database</span>
+              </div>
+              <button class="text-link project-open">View details ↗</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="calendar">
+            <div class="project-image">
+              <img
+                src="assets/calendar.png"
+                alt="Birthday month calendar project screenshot"
+              />
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <span>02</span><span>Web Project</span>
+              </div>
+              <h3>Birthday Month Calendar</h3>
+              <p>
+                An interactive monthly calendar with a birthday marker, date
+                interactions, holidays, and important events.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <button class="text-link project-open">View details ↗</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="enrollment">
+            <div class="project-image">
+              <img
+                src="assets/enrollment.png"
+                alt="Student enrollment form project screenshot"
+              />
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <span>03</span><span>Web Project</span>
+              </div>
+              <h3>Student Enrollment Form</h3>
+              <p>
+                A structured web form designed to collect student information
+                required for enrollment.
+              </p>
+              <div class="tags"><span>HTML</span><span>CSS</span></div>
+              <button class="text-link project-open">View details ↗</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="multiplication">
+            <div class="project-image small-image">
+              <img
+                src="assets/multiplication.png"
+                alt="Multiplication table project screenshot"
+              />
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <span>04</span><span>Beginner Project</span>
+              </div>
+              <h3>Multiplication Table</h3>
+              <p>
+                A simple 1–5 multiplication table created as an introductory
+                HTML exercise.
+              </p>
+              <div class="tags"><span>HTML</span></div>
+              <button class="text-link project-open">View details ↗</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container interests-section">
+        <div class="interest-card">
+          <div>
+            <p class="eyebrow">05 — BEYOND TECH</p>
+            <h2>When I'm not coding...</h2>
+          </div>
+          <div class="interest-list">
+            <span>🎮 Gaming</span>
+            <span>🏃 Jogging</span>
+            <span>🏸 Badminton</span>
+            <span>🏐 Volleyball</span>
+            <span>🎬 Movies</span>
+            <span>🍿 Anime</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">06 — CONTACT</p>
+            <h2>Let's connect.</h2>
+            <p>
+              If you'd like to ask about my projects, skills, or experience,
+              feel free to reach out.
+            </p>
+          </div>
+          <a class="btn primary" href="mailto:russelllacernaa@gmail.com"
+            >Email me ↗</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <span>© <span id="year"></span> Russel Lacerna</span>
+      <span>Built while learning.</span>
+    </footer>
+
+    <!-- Project modal -->
+    <div id="projectModal" class="modal-backdrop" aria-hidden="true">
+      <div
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+      >
+        <button class="modal-close" id="modalClose" aria-label="Close">
+          ×
+        </button>
+        <p class="eyebrow" id="modalType"></p>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+        <div id="modalTags" class="tags"></div>
+      </div>
+    </div>
+
+    <!-- Portfolio chatbot -->
+    <aside id="chatbot" class="chatbot" aria-hidden="true">
+      <div class="chat-header">
+        <div class="bot-avatar">✦</div>
+        <div>
+          <strong>Portfolio AI</strong>
+          <small>Russ's portfolio assistant</small>
+        </div>
+        <button id="chatClose" class="chat-close" aria-label="Close chatbot">
+          ×
+        </button>
+      </div>
+
+      <div id="chatMessages" class="chat-messages">
+        <div class="message bot">
+          Hey! I'm Russ's portfolio assistant. 👋 Ask me about his skills,
+          projects, education, OJT experience, or interests.
+        </div>
+      </div>
+
+      <div class="chat-suggestions">
+        <button data-question="Who is Russ?">Who is Russ?</button>
+        <button data-question="What are his skills?">His skills?</button>
+        <button data-question="What projects has he made?">
+          His projects?
+        </button>
+        <button data-question="What did he do during OJT?">His OJT?</button>
+      </div>
+
+      <form id="chatForm" class="chat-input">
+        <input
+          id="chatInput"
+          autocomplete="off"
+          placeholder="Ask about Russ..."
+          aria-label="Ask about Russ"
+        />
+        <button type="submit" aria-label="Send">↑</button>
+      </form>
+    </aside>
+
+    <button id="chatFab" class="chat-fab" aria-label="Open portfolio AI">
+      <span>✦</span>
+      <span class="fab-label">Ask my AI</span>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
