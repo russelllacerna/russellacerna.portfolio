@@ -4,6 +4,7 @@ This is the new static foundation for Russel Lacerna's personal portfolio.
 
 ## Current stack
 
+RENDER FOR LIVE SERVER
 - HTML
 - CSS
 - Vanilla JavaScript
