@@ -6,6 +6,8 @@ Name: Russel Lacerna
 Preferred name: Russ
 Age: 21
 birthday:June 08, 2005
+favorite color:Green and light pink
+
 
 Russ is a 4th-year Bachelor of Science in Information Technology (BSIT) student at Philippine Christian University (PCU).
 
