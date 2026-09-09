@@ -185,17 +185,20 @@ document.addEventListener("DOMContentLoaded", () => {
     addMessage("Thinking...", "bot");
 
     try {
-      const response = await fetch("http://localhost:3000/api/chat", {
-        method: "POST",
+      const response = await fetch(
+        "https://russ-portfolio-chatbot.onrender.com/api/chat",
+        {
+          method: "POST",
 
-        headers: {
-          "Content-Type": "application/json",
+          headers: {
+            "Content-Type": "application/json",
+          },
+
+          body: JSON.stringify({
+            message: question,
+          }),
         },
-
-        body: JSON.stringify({
-          message: question,
-        }),
-      });
+      );
 
       if (!response.ok) {
         throw new Error("Server responded with an error.");
